@@ -24,8 +24,12 @@ end
 
 unzip("ThePrince.epub", "./test")
 
+#once unzipped, find the table of contents
+
+#Nokogiri will render the html as text:
 txt = Nokogiri::HTML(open("ThePrince/1232/@public@vhost@g@gutenberg@html@files@1232@1232-h@1232-h-1.htm.html")).text
 
+#Find a way to paginate the text
 puts txt
 
 #TODO:
