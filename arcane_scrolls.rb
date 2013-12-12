@@ -35,6 +35,8 @@ puts txt
 #TODO:
 #Use Thor to make it a commandline app like rhc
 #Use term-ansicolor for colored output
+#Use ansicolor to turn different HTML features different colors, since we can't affect size - H1 red, H2 blue, etc.
+#Less has a feature - type "ma" to mark a position with the labe "a" to jump back to the position, simply type 'a unix.stackexchange.com/questions/31/list-of-useful-less-functions
 #Pagination/page numbering: http://bookclubs.barnesandnoble.com/t5/NOOK-Book-Discussion/EPUBs-and-page-numbering/m-p/692216/highlight/true#M13924
 #EPUB structure explanation: http://www.hxa.name/articles/content/epub-guide_hxa7241_2007.html
 #http://xkcd.com/303/
